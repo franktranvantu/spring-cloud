@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /cloud-functions
+
+spring:
+  cloud:
+    function:
+      scan:
+      packages: com.franktran.spring.cloud.functions
